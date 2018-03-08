@@ -8,7 +8,7 @@
 #define eps 1e-6
 
 void print_menu() {
-	printf("1. Read the number\n2. Exit\n");
+	printf("1. Input the number\n2. Exit\n");
 }
 
 int get_command() {
