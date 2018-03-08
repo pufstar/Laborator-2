@@ -12,7 +12,7 @@ void print_menu() {
 }
 
 int get_command() {
-	printf("Please give command: ");
+	printf("Give command: ");
 	int cmd;
 	scanf("%d", &cmd);
 	return cmd;
