@@ -12,14 +12,16 @@ void print_menu() {
 }
 
 int get_command() {
-	printf("Give command: ");
 	int cmd;
+
+	printf("Give command: ");
 	scanf("%d", &cmd);
+
 	return cmd;
 }
 
 double module(double x) {
-	if (x < 0) 
+	if (x < 0)
 		return -x;
 	return x;
 }
